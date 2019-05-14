@@ -22,7 +22,7 @@ services:
     links:
       - mysql
       - redis
-    image: microsoft/dotnet:2.1-aspnetcore-runtime-alpine
+    image: microsoft/dotnet:2.2-aspnetcore-runtime-alpine
     container_name: MyApp-api
     working_dir: /root/MyApp/MyApp
     command: ["dotnet", "/root/MyApp/MyApp/MyApp.dll"]

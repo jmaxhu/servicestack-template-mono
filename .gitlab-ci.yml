@@ -28,7 +28,7 @@ test:
 publish:
   stage: publish
   script:
-    - dotnet publish MyApp/MyApp.csproj -c Release -f netcoreapp2.1 -o ../publish/publish
+    - dotnet publish MyApp/MyApp.csproj -c Release -f netcoreapp2.2 -o ../publish/publish
     - cp version ./publish
     - cp Dockerfile ./publish
     - rm -rf /root/MyApp/publish/*
