@@ -7,6 +7,7 @@ namespace MyApp.ServiceModel.District
     /// <summary>
     /// 行政区划
     /// </summary>
+    [Alias("sys_district")]
     public class District : Entity
     {
         /// <summary>
