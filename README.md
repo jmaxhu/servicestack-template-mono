@@ -11,7 +11,7 @@
 该脚手架基于 servicestack cli，使用前请先安装 node 及 servicestack/cli 的 npm 包。
 
 ```shell
-npm install -g @servicestack/cli
+npm install -g @servicestack/cli@1.0.7
 
 dotnet-new https://github.com/jmaxhu/servicestack-template [project name]
 ```
