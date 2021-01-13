@@ -4,7 +4,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="MiniProfiler.AspNetCore.Mvc" Version="4.0.165" />
-    <PackageReference Include="ServiceStack" Version="5.5.0" />
+    <PackageReference Include="ServiceStack" Version="5.9.2" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyApp.Manage\MyApp.Manage.csproj" />
